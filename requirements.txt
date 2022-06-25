@@ -1,7 +1,4 @@
 requests
-time
-random
-string
 discord
 webhook
 RequestsWebhookAdapter

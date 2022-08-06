@@ -9,17 +9,17 @@ colorama.init()
 # Copyright (c) 2022 fluro#0009 fluorescentxx@protonmail.com
 # Using this tool I am not responsible for any damages or bans
 
+                  
+print(Fore.CYAN + """
 
-print(f"{Fore.CYAN}  
-      
-______                           __      _______  _   _ 
+ ______                           __      _______  _   _ 
  |  ____|                          \ \    / /  __ \| \ | |
  | |__  __  ___ __  _ __ ___  ___ __\ \  / /| |__) |  \| |
  |  __| \ \/ / '_ \| '__/ _ \/ __/ __\ \/ / |  ___/| . ` |
  | |____ >  <| |_) | | |  __/\__ \__ \\  /  | |    | |\  |
  |______/_/\_\ .__/|_|  \___||___/___/ \/   |_|    |_| \_|
              | |                                          
-             |_|                                          "")
+             |_|                                    """ + Fore.RESET)
 
 link = input("Webhook link :")
 amount = int(input("How many activation codes to generate :"))
